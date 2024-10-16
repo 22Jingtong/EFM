@@ -15,6 +15,7 @@ def exp_EFM(args):
             data_ID = Outlied[Outlied["TurbID"].isin([id])]
             df_density = density(data_ID)
             df_cluster = to_kmeans_wspd(df_density, args.clustering_num)
+            # df_cluster = to_kmeans_patv(df_density, args.clustering_num)
             df_cluster.set_index("date", inplace=True)
             for i in range(0, args.clustering_num):
                 data_prepare = prepare_data_(df_cluster, args.window_size, i)
