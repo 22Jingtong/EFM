@@ -62,7 +62,6 @@ class Attention(Layer):
 
 def lstm_m(window_size, n_vars, n_neurons=50, dropout=0.05, optimizer='adam'):
     inputs = Input(shape=(window_size, n_vars))
-    # 使用双向LSTM
     lstm_hide = LSTM(units=int(n_neurons), return_sequences=True)(inputs)
     lstm_hide1 = LSTM(units=int(n_neurons), return_sequences=True)(lstm_hide)
     lstm_hide_drop1 = Dropout(dropout)(lstm_hide1)
