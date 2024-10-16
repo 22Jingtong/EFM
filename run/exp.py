@@ -11,7 +11,7 @@ def exp_EFM(args):
         df = pd.read_csv(args.filepath, header=0, encoding='utf-8', delimiter=',', na_values=['NaN'])
         Outlied = Outliers_data(df)
         Outlied['date'] = pd.Series(Outlied['date']).astype('datetime64[ns]')
-        for id in range(1, 135, 5):
+        for id in range(1, args.Turbine):
             data_ID = Outlied[Outlied["TurbID"].isin([id])]
             df_density = density(data_ID)
             df_cluster = to_kmeans_wspd(df_density, args.clustering_num)
