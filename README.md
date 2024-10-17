@@ -1,9 +1,12 @@
 # Adaptive Expert Fusion Model for Online Wind Power Prediction
 
-## Expert Fusion Concept of Models<br/>
+## Expert Fusion Concept of Models
 <div style="text-align: center">
 <img width="508" alt="EFM_" src="https://github.com/user-attachments/assets/10af3381-81a4-419c-8d6e-dafe364546b7">
 </div>
+
+##Dataset
+The dataset used in EFM+ can be download from [Baidu KDD CUP 2022](https://aistudio.baidu.com/competition/detail/152/0/introduction).
 
 ## Code Structure
 
@@ -33,7 +36,7 @@
 └── main.py
 ```
 
-## Predictive Effect<br/>
+## Predictive Effect
 <div style="text-align: center">
 <img width="508" alt="prediction" src="https://github.com/user-attachments/assets/2e81cf8b-5727-48dd-b568-51bc85b681ff">
 </div>
