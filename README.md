@@ -5,32 +5,33 @@
 <img width="508" alt="EFM_" src="https://github.com/user-attachments/assets/10af3381-81a4-419c-8d6e-dafe364546b7">
 </div>
 
+## Code Structure
+
+```python
 .
-├── examples
-│   ├── batch_eval.py
-│   ├── generate_query.py
-│   ├── lightrag_hf_demo.py
-│   ├── lightrag_ollama_demo.py
-│   ├── lightrag_openai_compatible_demo.py
-│   └── lightrag_openai_demo.py
-├── lightrag
+├── model
 │   ├── __init__.py
-│   ├── base.py
-│   ├── lightrag.py
-│   ├── llm.py
-│   ├── operate.py
-│   ├── prompt.py
-│   ├── storage.py
-│   └── utils.py
-├── reproduce
-│   ├── Step_0.py
-│   ├── Step_1.py
-│   ├── Step_2.py
-│   └── Step_3.py
-├── LICENSE
+│   ├── EFM.py
+│   ├── Dynamic.py
+│   └── init_model.py
+├── model_fit
+│   ├── __init__.py
+│   ├── 0
+│   ├── 1
+│   ├── 2
+│   ├── 3
+│   └── 4
+├── run
+│   ├── __init__.py
+│   └── exp.py
+├── util
+│   ├── __init__.py
+│   ├── data_process.py
+│   └── error.py
 ├── README.md
 ├── requirements.txt
-└── setup.py
+└── main.py
+```
 
 <b>Predictive Effect</b><br/>
 <div style="text-align: center">
