@@ -1,10 +1,10 @@
 # Adaptive Expert Fusion Model for Online Wind Power Prediction
 
 <b>Expert Fusion Concept of Models</b><br/>
-<div style="text-align: center; width: 1000px; border: green solid 1px;">
+<div style="text-align: center">
 <img width="508" alt="EFM_" src="https://github.com/user-attachments/assets/10af3381-81a4-419c-8d6e-dafe364546b7">
 </div>
 <b>Predictive Effect</b><br/>
-<div style="text-align: center; width: 1000px; border: green solid 1px;">
+<div style="text-align: center">
 <img width="508" alt="prediction" src="https://github.com/user-attachments/assets/2e81cf8b-5727-48dd-b568-51bc85b681ff">
 </div>
